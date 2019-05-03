@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".MainActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtSearch"
+                android:hint="Search Obat Tetes"
+                android:layout_marginHorizontal="16dp"
+                android:inputType="text"
+                android:imeOptions="actionNext"
+                android:drawableLeft="@drawable/search"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/herba"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/va"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul0"
+                    android:text="HERBA EYE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/herba"/>
+
+            <TextView
+                    android:id="@+id/deskripsi50"
+                    android:text="Rp.20.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/herba"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/vb"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/vb"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul51"
+                    android:text="ROHTO"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/vb"/>
+
+            <TextView
+                    android:id="@+id/deskripsi52"
+                    android:text="Rp.40.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/vb"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/vc"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/vc"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul53"
+                    android:text="INSTO"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/vc"/>
+
+            <TextView
+                    android:id="@+id/deskripsi53"
+                    android:text="Rp.8.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/vc"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/vg"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/vg"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul54"
+                    android:text="TIRIVID OFLOXACIN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/vg"/>
+
+            <TextView
+                    android:id="@+id/deskripsi54"
+                    android:text="Rp.16.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/vg"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/vj"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/vj"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul55"
+                    android:text="OTEM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/vj"/>
+
+            <TextView
+                    android:id="@+id/deskrips55"
+                    android:text="Rp.12.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/vj"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/vk"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/vk"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul56"
+                    android:text="CENDO XITROL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/vk"/>
+
+            <TextView
+                    android:id="@+id/deskripsi56"
+                    android:text="Rp.27.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/vk"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/vl"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/vl"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul57"
+                    android:text="CATARLENT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/vl"/>
+
+            <TextView
+                    android:id="@+id/deskripsi57"
+                    android:text="Rp.11.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/vl"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

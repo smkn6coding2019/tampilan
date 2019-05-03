@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFF"
+        tools:context=".MainActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Search"
+                android:hint="Search Obat Cair"
+                android:layout_marginHorizontal="16dp"
+                android:inputType="text"
+                android:imeOptions="actionNext"
+                android:drawableLeft="@drawable/search"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/proris"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/wa"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul8"
+                    android:text="PRORIS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/proris"/>
+
+            <TextView
+                    android:id="@+id/deskripsi8"
+                    android:text="Rp.30.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/proris"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/wood"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/wb"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul9"
+                    android:text="WOODS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/wood"/>
+
+            <TextView
+                    android:id="@+id/deskripsi9"
+                    android:text="Rp.20.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/wood"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/komix"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/wd"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul10"
+                    android:text="KOMIX FORMULA 44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/komix"/>
+
+            <TextView
+                    android:id="@+id/deskripsi10"
+                    android:text="Rp.15.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/komix"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/bisolvon"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/we"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul11"
+                    android:text="BISOLVON"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/bisolvon"/>
+
+            <TextView
+                    android:id="@+id/deskripsi11"
+                    android:text="Rp.17.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/bisolvon"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/lasterin"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/wf"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul12"
+                    android:text="LASTERIN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/lasterin"/>
+
+            <TextView
+                    android:id="@+id/deskripsi12"
+                    android:text="Rp.10.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/lasterin"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/combi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/wg"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul13"
+                    android:text="OBH COMBI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/combi"/>
+
+            <TextView
+                    android:id="@+id/deskripsi13"
+                    android:text="Rp.15.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/combi"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/hufagrip"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/wh"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul14"
+                    android:text="HUFAGRIP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/hufagrip"/>
+
+            <TextView
+                    android:id="@+id/deskripsi14"
+                    android:text="Rp.25.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/hufagrip"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

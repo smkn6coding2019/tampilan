@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFFF"
+              tools:context=".MainActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtSearch"
+                android:hint="Search Alat Dokter"
+                android:layout_marginHorizontal="16dp"
+                android:inputType="text"
+                android:imeOptions="actionNext"
+                android:drawableLeft="@drawable/search"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/alat"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ea"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul21"
+                    android:text="STETOSKOP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/alat"/>
+
+            <TextView
+                    android:id="@+id/deskripsi21"
+                    android:text="Rp.1.000.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/alat"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/tensi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/eb"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul22"
+                    android:text="TENSI"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/tensi"/>
+
+            <TextView
+                    android:id="@+id/deskripsi22"
+                    android:text="Rp.500.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/tensi"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/suntik"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ec"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul23"
+                    android:text="SUNTIKAN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/suntik"/>
+
+            <TextView
+                    android:id="@+id/deskripsi23"
+                    android:text="Rp.300.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/suntik"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/termo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ed"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul24"
+                    android:text="SUNTIKAN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/termo"/>
+
+            <TextView
+                    android:id="@+id/deskripsi24"
+                    android:text="Rp.50.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/termo"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/tabung"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ef"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul25"
+                    android:text="TABUNG OKSIGEN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/tabung"/>
+
+            <TextView
+                    android:id="@+id/deskripsi25"
+                    android:text="Rp.50.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/termo"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/infus"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/infus"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul26"
+                    android:text="INFUS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/infus"/>
+
+            <TextView
+                    android:id="@+id/deskripsi26"
+                    android:text="Rp.400.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/infus"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/gigi"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ez"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul27"
+                    android:text="ORAL DIAGNOSTIK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/gigi"/>
+
+            <TextView
+                    android:id="@+id/deskripsi27"
+                    android:text="Rp.500.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/gigi"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

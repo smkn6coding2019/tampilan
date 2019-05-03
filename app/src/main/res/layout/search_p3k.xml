@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context=".MainActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtSearch"
+                android:hint="Search P3K"
+                android:layout_marginHorizontal="16dp"
+                android:inputType="text"
+                android:imeOptions="actionNext"
+                android:drawableLeft="@drawable/search"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/p3k7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/mg"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul67"
+                    android:text="ORALIT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/p3k7"/>
+
+            <TextView
+                    android:id="@+id/deskripsi67"
+                    android:text="Rp.11.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/p3k7"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/p3k6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/mf"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul66"
+                    android:text="RIVANOL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/p3k6"/>
+
+            <TextView
+                    android:id="@+id/deskripsi65"
+                    android:text="Rp.10.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/p3k6"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/p3k5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/me"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul64"
+                    android:text="HANSAPLAST"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/p3k5"/>
+
+            <TextView
+                    android:id="@+id/deskripsi64"
+                    android:text="Rp.12.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/p3k5"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/p3k4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/md"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul63"
+                    android:text="ALKOHOL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/p3k4"/>
+
+            <TextView
+                    android:id="@+id/deskripsi63"
+                    android:text="Rp.15.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/p3k4"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/p3k3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/mc"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul62"
+                    android:text="KASA PERBAN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/p3k3"/>
+
+            <TextView
+                    android:id="@+id/deskripsi62"
+                    android:text="Rp.20.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/p3k3"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/p3k2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/mb"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul61"
+                    android:text="ELASTIC PERBAN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/p3k2"/>
+
+            <TextView
+                    android:id="@+id/deskripsi61"
+                    android:text="Rp.25.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/p3k2"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="500dp"
+            android:layout_height="80dp">
+        <ImageView
+                android:id="@+id/p3k1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ma"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <TextView
+                    android:id="@+id/judul60"
+                    android:text="BETADINE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_toRightOf="@+id/p3k1"/>
+
+            <TextView
+                    android:id="@+id/deskripsi60"
+                    android:text="Rp.10.000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/p3k1"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
